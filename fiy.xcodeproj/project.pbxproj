@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0062B5661EE1A03100EB175D /* fiy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0062B55C1EE1A03100EB175D /* fiy.framework */; };
+		0062B56B1EE1A03100EB175D /* fiyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0062B56A1EE1A03100EB175D /* fiyTests.swift */; };
+		0062B56D1EE1A03100EB175D /* fiy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0062B55F1EE1A03100EB175D /* fiy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0062B5771EE1A05700EB175D /* fiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0062B5761EE1A05700EB175D /* fiy.swift */; };
+		00C168031EFA44BB00796098 /* fiy.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 00C168021EFA44BB00796098 /* fiy.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0062B5671EE1A03100EB175D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0062B5531EE1A03100EB175D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0062B55B1EE1A03100EB175D;
+			remoteInfo = fiy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0062B55C1EE1A03100EB175D /* fiy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fiy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0062B55F1EE1A03100EB175D /* fiy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fiy.h; sourceTree = "<group>"; };
+		0062B5601EE1A03100EB175D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0062B5651EE1A03100EB175D /* fiyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0062B56A1EE1A03100EB175D /* fiyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiyTests.swift; sourceTree = "<group>"; };
+		0062B56C1EE1A03100EB175D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0062B5761EE1A05700EB175D /* fiy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fiy.swift; sourceTree = SOURCE_ROOT; };
+		00C168021EFA44BB00796098 /* fiy.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fiy.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0062B5581EE1A03100EB175D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0062B5621EE1A03100EB175D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0062B5661EE1A03100EB175D /* fiy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0062B5521EE1A03100EB175D = {
+			isa = PBXGroup;
+			children = (
+				00C168021EFA44BB00796098 /* fiy.podspec */,
+				0062B55E1EE1A03100EB175D /* fiy */,
+				0062B5691EE1A03100EB175D /* fiyTests */,
+				0062B55D1EE1A03100EB175D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0062B55D1EE1A03100EB175D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0062B55C1EE1A03100EB175D /* fiy.framework */,
+				0062B5651EE1A03100EB175D /* fiyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0062B55E1EE1A03100EB175D /* fiy */ = {
+			isa = PBXGroup;
+			children = (
+				0062B5761EE1A05700EB175D /* fiy.swift */,
+				0062B55F1EE1A03100EB175D /* fiy.h */,
+				0062B5601EE1A03100EB175D /* Info.plist */,
+			);
+			path = fiy;
+			sourceTree = "<group>";
+		};
+		0062B5691EE1A03100EB175D /* fiyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0062B56A1EE1A03100EB175D /* fiyTests.swift */,
+				0062B56C1EE1A03100EB175D /* Info.plist */,
+			);
+			path = fiyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0062B5591EE1A03100EB175D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0062B56D1EE1A03100EB175D /* fiy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0062B55B1EE1A03100EB175D /* fiy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0062B5701EE1A03100EB175D /* Build configuration list for PBXNativeTarget "fiy" */;
+			buildPhases = (
+				0062B5571EE1A03100EB175D /* Sources */,
+				0062B5581EE1A03100EB175D /* Frameworks */,
+				0062B5591EE1A03100EB175D /* Headers */,
+				0062B55A1EE1A03100EB175D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fiy;
+			productName = fiy;
+			productReference = 0062B55C1EE1A03100EB175D /* fiy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0062B5641EE1A03100EB175D /* fiyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0062B5731EE1A03100EB175D /* Build configuration list for PBXNativeTarget "fiyTests" */;
+			buildPhases = (
+				0062B5611EE1A03100EB175D /* Sources */,
+				0062B5621EE1A03100EB175D /* Frameworks */,
+				0062B5631EE1A03100EB175D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0062B5681EE1A03100EB175D /* PBXTargetDependency */,
+			);
+			name = fiyTests;
+			productName = fiyTests;
+			productReference = 0062B5651EE1A03100EB175D /* fiyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0062B5531EE1A03100EB175D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Adyog;
+				TargetAttributes = {
+					0062B55B1EE1A03100EB175D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5SW6C3LUKF;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					0062B5641EE1A03100EB175D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0062B5561EE1A03100EB175D /* Build configuration list for PBXProject "fiy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0062B5521EE1A03100EB175D;
+			productRefGroup = 0062B55D1EE1A03100EB175D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0062B55B1EE1A03100EB175D /* fiy */,
+				0062B5641EE1A03100EB175D /* fiyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0062B55A1EE1A03100EB175D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C168031EFA44BB00796098 /* fiy.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0062B5631EE1A03100EB175D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0062B5571EE1A03100EB175D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0062B5771EE1A05700EB175D /* fiy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0062B5611EE1A03100EB175D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0062B56B1EE1A03100EB175D /* fiyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0062B5681EE1A03100EB175D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0062B55B1EE1A03100EB175D /* fiy */;
+			targetProxy = 0062B5671EE1A03100EB175D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0062B56E1EE1A03100EB175D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0062B56F1EE1A03100EB175D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0062B5711EE1A03100EB175D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5SW6C3LUKF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = fiy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.fiy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0062B5721EE1A03100EB175D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5SW6C3LUKF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = fiy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.fiy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0062B5741EE1A03100EB175D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = fiyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.fiyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0062B5751EE1A03100EB175D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = fiyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adyog.com.fiyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0062B5561EE1A03100EB175D /* Build configuration list for PBXProject "fiy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0062B56E1EE1A03100EB175D /* Debug */,
+				0062B56F1EE1A03100EB175D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0062B5701EE1A03100EB175D /* Build configuration list for PBXNativeTarget "fiy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0062B5711EE1A03100EB175D /* Debug */,
+				0062B5721EE1A03100EB175D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0062B5731EE1A03100EB175D /* Build configuration list for PBXNativeTarget "fiyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0062B5741EE1A03100EB175D /* Debug */,
+				0062B5751EE1A03100EB175D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0062B5531EE1A03100EB175D /* Project object */;
+}
